@@ -1,0 +1,46 @@
+.manage-user-container {
+  padding: 20px;
+  .users-content {
+    .btn-add-new {
+      width: 150px;
+      height: 40px;
+      border-radius: 5px;
+      padding: 0 15px;
+      background: #303030;
+      color: white;
+      border: none;
+      outline: none;
+      margin: 15px 0;
+      svg {
+        margin-right: 5px;
+        font-size: 1rem;
+      }
+      &:hover {
+        cursor: pointer;
+        background: black;
+      }
+    }
+  }
+  .table-users-container {
+    .btn {
+      margin-right: 20px;
+      padding: 8px 20px;
+    }
+  }
+}
+.model-add-user {
+  .img-preview {
+    height: 150px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}

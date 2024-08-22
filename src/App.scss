@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1350px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1300px !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .homepage-video {
+    display: none;
+  }
+}
+
+.app-container {
+  .header-container {
+    .btn-login {
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+      margin-right: 15px;
+      padding: 0 15px;
+      border: 1px solid #535353;
+      background: white;
+      outline: none;
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+    .btn-signup {
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+      padding: 0 15px;
+      background: #303030;
+      color: white;
+      border: none;
+      outline: none;
+      &:hover {
+        cursor: pointer;
+        background: black;
+      }
+    }
+    .btn-logout {
+      border: none;
+      outline: none;
+      background-color: none;
+      background: none;
+      margin: none;
+      padding: none !important;
+    }
+    // .btn-logout {
+    //   width: 120px;
+    //   height: 40px;
+    //   border-radius: 5px;
+    //   padding: 0 15px;
+    //   background: #303030;
+    //   color: white;
+    //   border: none;
+    //   outline: none;
+    //   &:hover {
+    //     cursor: pointer;
+    //     background: black;
+    //   }
+    // }
+    .navbar {
+      padding-top: 1rem;
+      z-index: 10;
+      background-color: rgba(0, 0, 0, 0) !important;
+      font-size: 1rem;
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .nav-link {
+        margin-left: 1.2rem;
+        font-weight: 400;
+        color: black;
+        &.active {
+          color: #00bfff;
+        }
+      }
+    }
+  }
+  .homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .homepage-content {
+      .title {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .desc {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 30px 0;
+      }
+      .btn-start {
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 0 15px;
+        background: #303030;
+        color: white;
+        border: none;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+          background: black;
+        }
+      }
+    }
+  }
+}
+
+video {
+  width: 600px;
+  height: 600px;
+}
